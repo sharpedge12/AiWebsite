@@ -45,9 +45,7 @@ const CreatePost = () => {
       } catch (err) {
         console.log(err);
       } finally {
-      setTimeout(() => {
         setGeneratingImg(false);
-      }, 3000);
       }
     } else {
       console.log('Please provide proper prompt');
